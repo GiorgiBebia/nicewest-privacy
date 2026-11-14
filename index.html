@@ -1,97 +1,520 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NiceWest - Privacy Policy & Terms of Service</title>
     <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #f9f9f9;
-        }
-        .container {
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-        h1 { color: #fe3c72; text-align: center; margin-bottom: 5px; }
-        .subtitle { text-align: center; color: #666; margin-bottom: 30px; font-size: 0.9em; }
-        h2 { color: #111; border-bottom: 2px solid #f0f0f0; padding-bottom: 8px; margin-top: 30px; }
-        p { margin-bottom: 15px; color: #444; }
-        .lang-switch { text-align: center; margin-bottom: 30px; }
-        .lang-btn {
-            background: #fe3c72;
-            color: white;
-            border: none;
-            padding: 8px 16px;
-            border-radius: 20px;
-            cursor: pointer;
-            margin: 0 5px;
-            font-weight: bold;
-        }
-        footer { text-align: center; margin-top: 40px; color: #888; font-size: 0.85em; }
+      :root {
+        --pink: #fe3c72;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+          Arial, "Noto Sans Georgian", sans-serif;
+        line-height: 1.65;
+        color: #333;
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 16px;
+        background: #f4f4f6;
+      }
+      .container {
+        background: #fff;
+        padding: 32px 28px;
+        border-radius: 12px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      }
+      h1 {
+        color: var(--pink);
+        text-align: center;
+        margin: 0 0 4px;
+      }
+      .subtitle {
+        text-align: center;
+        color: #666;
+        margin: 0 0 20px;
+        font-size: 0.92em;
+      }
+      h2 {
+        color: #111;
+        border-bottom: 2px solid #f0f0f0;
+        padding-bottom: 6px;
+        margin-top: 28px;
+        font-size: 1.15em;
+      }
+      p,
+      li {
+        color: #444;
+      }
+      ul {
+        padding-left: 22px;
+      }
+      .nav {
+        text-align: center;
+        margin-bottom: 22px;
+      }
+      .nav a,
+      .btn {
+        display: inline-block;
+        background: var(--pink);
+        color: #fff;
+        text-decoration: none;
+        padding: 8px 16px;
+        border-radius: 20px;
+        margin: 4px;
+        font-weight: bold;
+        font-size: 0.92em;
+      }
+      .nav a.alt {
+        background: #fff;
+        color: var(--pink);
+        border: 2px solid var(--pink);
+        padding: 6px 14px;
+      }
+      .note {
+        background: #fff4f7;
+        border-left: 4px solid var(--pink);
+        padding: 10px 14px;
+        border-radius: 6px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 0.92em;
+      }
+      th,
+      td {
+        border: 1px solid #e6e6e6;
+        padding: 8px 10px;
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background: #fafafa;
+      }
+      footer {
+        text-align: center;
+        margin-top: 34px;
+        color: #888;
+        font-size: 0.85em;
+      }
+      hr {
+        margin: 36px 0;
+        border: 0;
+        border-top: 1px solid #eee;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <h1>NiceWest</h1>
+      <p class="subtitle">
+        Privacy Policy &amp; Terms of Service / კონფიდენციალურობის პოლიტიკა და
+        გამოყენების პირობები<br />Last updated / ბოლო განახლება: 13 November
+        2026
+      </p>
 
-<div class="container">
-    <h1>NiceWest</h1>
-    <p class="subtitle">Terms of Service & Privacy Policy / გამოყენების პირობები და კონფიდენციალურობა</p>
+      <div class="nav">
+        <a href="#en">English</a>
+        <a href="#ka">ქართული</a>
+        <a class="alt" href="delete-account.html"
+          >Delete account / ანგარიშის წაშლა</a
+        >
+      </div>
 
-    <!-- English Version -->
-    <div id="en">
-        <h2>1. Acceptance of Terms & Age Restriction (18+)</h2>
-        <p>By accessing or using NiceWest, you confirm that you are at least 18 years old and agree to be bound by these Terms of Use and all applicable laws. Registration of minors is strictly prohibited.</p>
+      <!-- ===================== ENGLISH ===================== -->
+      <div id="en">
+        <h2>1. Who we are</h2>
+        <p>
+          NiceWest is a dating and social-discovery mobile app for adults (18+).
+          This document explains what personal data the app collects, why, who
+          it is shared with, how long it is kept, and how you can control it.
+          Contact:
+          <a href="mailto:nicewestsupport@gmail.com"
+            >nicewestsupport@gmail.com</a
+          >.
+        </p>
 
-        <h2>2. User Accounts & Security</h2>
-        <p>You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.</p>
+        <h2>2. Age restriction (18+)</h2>
+        <p>
+          NiceWest is strictly for people who are at least 18 years old. By
+          registering you confirm that you are 18 or older. Accounts of minors
+          are prohibited and will be removed.
+        </p>
 
-        <h2>3. Community Guidelines & Safety (UGC Policy)</h2>
-        <p>Users must respect others. Harassment, hate speech, inappropriate or adult content, spam, fraud, or fake profiles will result in an immediate account ban.</p>
+        <h2>3. Data we collect</h2>
+        <table>
+          <tr>
+            <th>Data</th>
+            <th>Why</th>
+          </tr>
+          <tr>
+            <td>
+              Account data: username, email address, password (stored only as a
+              one-way hash), sign-in method (email or Google)
+            </td>
+            <td>Create and secure your account, send verification codes</td>
+          </tr>
+          <tr>
+            <td>
+              Profile data: full name, date of birth / age, gender, who you are
+              looking for, city, bio, interests, preferences (age range, search
+              radius), language
+            </td>
+            <td>Show your profile and find suitable matches</td>
+          </tr>
+          <tr>
+            <td>Photos you upload</td>
+            <td>Display on your profile; reviewed by our moderators</td>
+          </tr>
+          <tr>
+            <td>
+              Location: approximate and precise GPS coordinates, only while you
+              use the app and only with your permission
+            </td>
+            <td>Show people nearby and distances; apply your search radius</td>
+          </tr>
+          <tr>
+            <td>
+              Activity: likes, dislikes, matches, messages you send and receive,
+              blocks, reports
+            </td>
+            <td>Provide matching and chat, keep the community safe</td>
+          </tr>
+          <tr>
+            <td>
+              Device and technical data: device brand/model, OS version, device
+              identifier, push notification token, IP address, app-open events
+            </td>
+            <td>
+              Send notifications, prevent fraud and repeated abuse, keep the
+              service secure
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Advertising data: advertising identifier and ad interaction data
+              processed by Google AdMob
+            </td>
+            <td>
+              Show ads that fund the app (we request non-personalised ads)
+            </td>
+          </tr>
+        </table>
+        <p>
+          We do not collect your contacts, microphone recordings, or your camera
+          feed. Photos are chosen by you from your gallery.
+        </p>
 
-        <h2>4. Limitation of Liability</h2>
-        <p>NiceWest does not conduct criminal background checks on its users and is not responsible for any online or offline interactions or meetings between users. You assume all risks regarding safety during interactions.</p>
+        <h2>4. Profile review</h2>
+        <p>
+          New and changed profiles (photos, name, bio, etc.) are reviewed by
+          NiceWest administrators before they become visible to other users.
+          Administrators can see the data you submit for review.
+        </p>
 
-        <h2>5. Privacy, Location & Data Protection</h2>
-        <p>Your personal data and GPS location are processed solely to provide matching functionality. You can disable location access or request full account/data deletion at any time.</p>
+        <h2>5. Who can see your data</h2>
+        <ul>
+          <li>
+            <b>Other users:</b> your approved profile (photos, name, age, city,
+            bio, interests, approximate distance) is visible to other users of
+            the app according to matching settings. Messages are visible only to
+            you and the person you chat with, and to administrators if a message
+            or user is reported.
+          </li>
+          <li>
+            <b>Service providers (processors)</b> that help us run the app:
+            Supabase (database and photo storage), Render (server hosting),
+            Brevo (sending verification and password-reset emails), Google
+            (Google Sign-In, Firebase Cloud Messaging, Google AdMob), Expo (push
+            notification delivery and app updates).
+          </li>
+          <li>
+            <b>Authorities:</b> if required by law or to protect safety and
+            rights.
+          </li>
+        </ul>
+        <p>We do not sell your personal data.</p>
 
-        <h2>6. Account & Data Deletion</h2>
-        <p>You can permanently delete your account and associated data at any time directly within the App Settings or by contacting our support team.</p>
+        <h2>6. How long we keep data</h2>
+        <ul>
+          <li>
+            While your account is active we keep your profile, photos, matches
+            and messages.
+          </li>
+          <li>
+            When you delete your account, your profile, photos, likes, matches,
+            messages, blocks and device records are removed from the live
+            service immediately.
+          </li>
+          <li>
+            To prevent fraud and repeated abuse and to comply with legal
+            obligations, a limited archive (email address, username, device
+            identifier, push token, registration IP address, and copies of
+            deleted messages and photos) is kept in restricted storage for up to
+            <b>90 days</b> and then permanently deleted automatically.
+          </li>
+        </ul>
+
+        <h2>7. Your choices and rights</h2>
+        <ul>
+          <li>Edit your profile and photos in Settings.</li>
+          <li>
+            Turn off location access in your phone settings at any time (some
+            features will then be limited).
+          </li>
+          <li>Turn off notifications in your phone settings.</li>
+          <li>Block or report any user from their profile or chat.</li>
+          <li>
+            Delete your account inside the app (Settings &rarr; Delete account)
+            or via our <a href="delete-account.html">account deletion page</a>.
+          </li>
+          <li>
+            Ask for a copy of your data or a correction by emailing
+            <a href="mailto:nicewestsupport@gmail.com"
+              >nicewestsupport@gmail.com</a
+            >.
+          </li>
+        </ul>
+
+        <h2>8. Security</h2>
+        <p>
+          Data is transmitted over encrypted connections (HTTPS). Passwords are
+          stored only as salted hashes. Access to administration tools is
+          limited to authorised administrators. No system is perfectly secure,
+          so please use a strong, unique password.
+        </p>
+
+        <h2>9. Community guidelines (user-generated content)</h2>
+        <p>
+          Be respectful. Harassment, hate speech, nudity or adult content,
+          non-consensual intimate content, spam, fraud, impersonation and fake
+          profiles are prohibited and lead to removal of content and a ban of
+          the account. Users can report and block others in the app; reports are
+          reviewed by administrators.
+        </p>
+
+        <h2>10. Safety and limitation of liability</h2>
+        <p>
+          NiceWest does not conduct criminal background checks and is not
+          responsible for interactions or meetings between users, online or
+          offline. Please be careful when sharing personal information and meet
+          in public places first.
+        </p>
+
+        <h2>11. Changes</h2>
+        <p>
+          We may update this document. The date at the top shows the latest
+          version. Continuing to use the app after a change means you accept it.
+        </p>
+      </div>
+
+      <hr />
+
+      <!-- ===================== GEORGIAN ===================== -->
+      <div id="ka">
+        <h2>1. ვინ ვართ</h2>
+        <p>
+          NiceWest არის გაცნობისა და სოციალური ძიების მობილური აპლიკაცია
+          სრულწლოვნებისთვის (18+). ეს დოკუმენტი განმარტავს, რა პერსონალურ
+          მონაცემებს ვაგროვებთ, რატომ, ვის ვუზიარებთ, რამდენ ხანს ვინახავთ და
+          როგორ შეგიძლიათ მათი მართვა. საკონტაქტო:
+          <a href="mailto:nicewestsupport@gmail.com"
+            >nicewestsupport@gmail.com</a
+          >.
+        </p>
+
+        <h2>2. ასაკობრივი შეზღუდვა (18+)</h2>
+        <p>
+          NiceWest განკუთვნილია მხოლოდ მინიმუმ 18 წლის პირებისთვის. რეგისტრაციით
+          ადასტურებთ, რომ ხართ 18 წლის ან უფროსი. არასრულწლოვანთა ანგარიშები
+          აკრძალულია და წაიშლება.
+        </p>
+
+        <h2>3. რა მონაცემებს ვაგროვებთ</h2>
+        <table>
+          <tr>
+            <th>მონაცემი</th>
+            <th>რისთვის</th>
+          </tr>
+          <tr>
+            <td>
+              ანგარიშის მონაცემები: მომხმარებლის სახელი, ელფოსტა, პაროლი
+              (ინახება მხოლოდ შეუქცევადი ჰეშის სახით), შესვლის მეთოდი (ელფოსტა
+              ან Google)
+            </td>
+            <td>ანგარიშის შექმნა და დაცვა, დადასტურების კოდების გაგზავნა</td>
+          </tr>
+          <tr>
+            <td>
+              პროფილის მონაცემები: სახელი, დაბადების თარიღი/ასაკი, სქესი, ვის
+              ეძებთ, ქალაქი, ბიო, ინტერესები, პარამეტრები (ასაკობრივი დიაპაზონი,
+              ძიების რადიუსი), ენა
+            </td>
+            <td>თქვენი პროფილის ჩვენება და შესაფერისი წყვილების პოვნა</td>
+          </tr>
+          <tr>
+            <td>თქვენ მიერ ატვირთული ფოტოები</td>
+            <td>პროფილზე ჩვენება; ამოწმებენ ჩვენი მოდერატორები</td>
+          </tr>
+          <tr>
+            <td>
+              მდებარეობა: მიახლოებითი და ზუსტი GPS კოორდინატები, მხოლოდ აპის
+              გამოყენებისას და მხოლოდ თქვენი ნებართვით
+            </td>
+            <td>
+              ახლოს მყოფი ადამიანების და მანძილის ჩვენება; ძიების რადიუსის
+              გამოყენება
+            </td>
+          </tr>
+          <tr>
+            <td>
+              აქტივობა: ლაიქები, დისლაიქები, წყვილები (match), გაგზავნილი და
+              მიღებული შეტყობინებები, ბლოკები, რეპორტები
+            </td>
+            <td>წყვილების შერჩევა და ჩატი, საზოგადოების უსაფრთხოება</td>
+          </tr>
+          <tr>
+            <td>
+              მოწყობილობისა და ტექნიკური მონაცემები: მოდელი, OS ვერსია,
+              მოწყობილობის იდენტიფიკატორი, push-შეტყობინების ტოკენი, IP
+              მისამართი, აპის გახსნის მოვლენები
+            </td>
+            <td>
+              შეტყობინებების გაგზავნა, თაღლითობისა და განმეორებითი დარღვევების
+              პრევენცია, უსაფრთხოება
+            </td>
+          </tr>
+          <tr>
+            <td>
+              სარეკლამო მონაცემები: სარეკლამო იდენტიფიკატორი და რეკლამასთან
+              ურთიერთობა, რასაც ამუშავებს Google AdMob
+            </td>
+            <td>
+              რეკლამის ჩვენება, რომელიც აპს აფინანსებს (ვითხოვთ
+              არაპერსონალიზებულ რეკლამას)
+            </td>
+          </tr>
+        </table>
+        <p>
+          ჩვენ არ ვაგროვებთ თქვენს კონტაქტებს, მიკროფონის ჩანაწერებს ან კამერის
+          გამოსახულებას. ფოტოებს თავად ირჩევთ გალერეიდან.
+        </p>
+
+        <h2>4. პროფილის შემოწმება</h2>
+        <p>
+          ახალი და შეცვლილი პროფილები (ფოტოები, სახელი, ბიო და სხვ.) სხვა
+          მომხმარებლებისთვის ხილვადი ხდება NiceWest-ის ადმინისტრატორების
+          გადამოწმების შემდეგ. ადმინისტრატორები ხედავენ გადასამოწმებლად
+          გაგზავნილ მონაცემებს.
+        </p>
+
+        <h2>5. ვის შეუძლია თქვენი მონაცემების ნახვა</h2>
+        <ul>
+          <li>
+            <b>სხვა მომხმარებლები:</b> თქვენი დამტკიცებული პროფილი (ფოტოები,
+            სახელი, ასაკი, ქალაქი, ბიო, ინტერესები, მიახლოებითი მანძილი) ჩანს
+            აპის სხვა მომხმარებლებისთვის შერჩევის პარამეტრების მიხედვით.
+            შეტყობინებებს ხედავთ მხოლოდ თქვენ და თქვენი თანამოსაუბრე, ხოლო
+            რეპორტის შემთხვევაში ადმინისტრატორებიც.
+          </li>
+          <li>
+            <b>მომსახურების მიმწოდებლები (დამმუშავებლები):</b> Supabase (ბაზა და
+            ფოტოების საცავი), Render (სერვერი), Brevo (დადასტურებისა და პაროლის
+            აღდგენის წერილები), Google (Google Sign-In, Firebase Cloud
+            Messaging, Google AdMob), Expo (push-შეტყობინებები და აპის
+            განახლებები).
+          </li>
+          <li>
+            <b>სახელმწიფო ორგანოები:</b> კანონით გათვალისწინებულ შემთხვევაში ან
+            უსაფრთხოებისა და უფლებების დასაცავად.
+          </li>
+        </ul>
+        <p>თქვენს პერსონალურ მონაცემებს არ ვყიდით.</p>
+
+        <h2>6. რამდენ ხანს ვინახავთ მონაცემებს</h2>
+        <ul>
+          <li>
+            სანამ ანგარიში აქტიურია, ვინახავთ პროფილს, ფოტოებს, წყვილებს და
+            შეტყობინებებს.
+          </li>
+          <li>
+            ანგარიშის წაშლისას თქვენი პროფილი, ფოტოები, ლაიქები, წყვილები,
+            შეტყობინებები, ბლოკები და მოწყობილობის ჩანაწერები მოქმედი სერვისიდან
+            დაუყოვნებლივ იშლება.
+          </li>
+          <li>
+            თაღლითობისა და განმეორებითი დარღვევების თავიდან ასაცილებლად და
+            იურიდიული ვალდებულებების შესასრულებლად შეზღუდული არქივი (ელფოსტა,
+            მომხმარებლის სახელი, მოწყობილობის იდენტიფიკატორი, push ტოკენი,
+            რეგისტრაციის IP, წაშლილი შეტყობინებებისა და ფოტოების ასლები) დაცულ
+            საცავში ინახება მაქსიმუმ <b>90 დღე</b>, რის შემდეგაც ავტომატურად და
+            საბოლოოდ იშლება.
+          </li>
+        </ul>
+
+        <h2>7. თქვენი არჩევანი და უფლებები</h2>
+        <ul>
+          <li>პროფილისა და ფოტოების რედაქტირება პარამეტრებში.</li>
+          <li>
+            ლოკაციაზე წვდომის ნებისმიერ დროს გამორთვა ტელეფონის პარამეტრებიდან
+            (ზოგი ფუნქცია შეიზღუდება).
+          </li>
+          <li>შეტყობინებების გამორთვა ტელეფონის პარამეტრებიდან.</li>
+          <li>
+            ნებისმიერი მომხმარებლის დაბლოკვა ან დარეპორტება მისი პროფილიდან ან
+            ჩატიდან.
+          </li>
+          <li>
+            ანგარიშის წაშლა აპში (პარამეტრები &rarr; ანგარიშის წაშლა) ან
+            <a href="delete-account.html">ანგარიშის წაშლის გვერდიდან</a>.
+          </li>
+          <li>
+            თქვენი მონაცემების ასლის მოთხოვნა ან შესწორება:
+            <a href="mailto:nicewestsupport@gmail.com"
+              >nicewestsupport@gmail.com</a
+            >.
+          </li>
+        </ul>
+
+        <h2>8. უსაფრთხოება</h2>
+        <p>
+          მონაცემები გადაიცემა დაშიფრული კავშირით (HTTPS). პაროლები ინახება
+          მხოლოდ დამარილებული ჰეშის სახით. ადმინისტრირების ინსტრუმენტებზე წვდომა
+          მხოლოდ უფლებამოსილ ადმინისტრატორებს აქვთ. არცერთი სისტემა სრულყოფილად
+          დაცული არ არის, ამიტომ გამოიყენეთ ძლიერი და უნიკალური პაროლი.
+        </p>
+
+        <h2>9. საზოგადოების წესები (მომხმარებლის კონტენტი)</h2>
+        <p>
+          პატივი ეცით სხვებს. აკრძალულია შეურაცხყოფა, სიძულვილის ენა, შიშველი ან
+          უხამსი კონტენტი, თანხმობის გარეშე ინტიმური კონტენტი, სპამი, თაღლითობა,
+          სხვისი თავის დასახელება და ყალბი პროფილები; დარღვევისას კონტენტი
+          წაიშლება და ანგარიში დაიბლოკება. აპში შეგიძლიათ მომხმარებლის
+          დარეპორტება და დაბლოკვა; რეპორტებს განიხილავენ ადმინისტრატორები.
+        </p>
+
+        <h2>10. უსაფრთხოება და პასუხისმგებლობის შეზღუდვა</h2>
+        <p>
+          NiceWest არ ატარებს სისხლისსამართლებრივ შემოწმებას და არ აგებს პასუხს
+          მომხმარებლებს შორის ონლაინ თუ ოფლაინ ურთიერთობებსა და შეხვედრებზე.
+          პერსონალური ინფორმაციის გაზიარებისას იყავით ფრთხილად და პირველი
+          შეხვედრა საჯარო ადგილას დანიშნეთ.
+        </p>
+
+        <h2>11. ცვლილებები</h2>
+        <p>
+          ეს დოკუმენტი შეიძლება განახლდეს. ზედა ნაწილში მითითებულია უახლესი
+          ვერსიის თარიღი. ცვლილების შემდეგ აპის გამოყენების გაგრძელება ნიშნავს
+          მასზე თანხმობას.
+        </p>
+      </div>
+
+      <footer>&copy; 2026 NiceWest. All rights reserved.</footer>
     </div>
-
-    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-
-    <!-- Georgian Version -->
-    <div id="ka">
-        <h2>1. პირობებზე თანხმობა და ასაკობრივი შეზღუდვა (18+)</h2>
-        <p>NiceWest-ის გამოყენებით თქვენ ადასტურებთ, რომ ხართ სრულწლოვანი (მინიმუმ 18 წლის) და ეთანხმებით მოცემულ წესებსა და მოქმედ კანონმდებლობას. არასრულწლოვნების რეგისტრაცია მკაცრად აკრძალულია.</p>
-
-        <h2>2. მომხმარებლის ანგარიში და უსაფრთხოება</h2>
-        <p>თქვენ პასუხისმგებელი ხართ თქვენი ანგარიშის ავტორიზაციის მონაცემების უსაფრთხოებასა და მასზე განხორციელებულ ნებისმიერ მოქმედებაზე.</p>
-
-        <h2>3. საზოგადოების წესები და უსაფრთხოება (UGC Policy)</h2>
-        <p>პატივი ეცით სხვა მომხმარებლებს. მკაცრად აკრძალულია შეურაცხმყოფელი, სიძულვილის ენის შემცველი, უხამსი ან თანხმობის გარეშე ინტიმური კონტენტის ატვირთვა, სპამი, თაღლითობა და ყალბი პროფილის შექმნა. დარღვევის შემთხვევაში ანგარიში დაუყოვნებლივ დაიბლოკება.</p>
-
-        <h2>4. პასუხისმგებლობის შეზღუდვა (Limitation of Liability)</h2>
-        <p>NiceWest არ ატარებს მომხმარებლების სისხლისსამართლებრივ შემოწმებას (Background Check) და არ იღებს პასუხისმგებლობას მომხმარებელთა შორის ონლაინ თუ ოფლაინ ურთიერთობებსა და შეხვედრებზე. მომხმარებელი თავად იღებს სრულ პასუხისმგებლობას საკუთარ უსაფრთხოებაზე.</p>
-
-        <h2>5. კონფიდენციალურობა, გეოლოკაცია და მონაცემთა დაცვა</h2>
-        <p>თქვენი პერსონალური მონაცემები და GPS გეოლოკაცია მუშავდება მხოლოდ मატჩინგისა და აპლიკაციის ფუნქციონირების უზრუნველსაყოფად. თქვენ ნებისმიერ დროს შეგიძლიათ გათიშოთ ლოკაციაზე წვდომა ან მოითხოვოთ ანგარიშისა და მონაცემების სრული წაშლა.</p>
-
-        <h2>6. ანგარიშის და მონაცემების წაშლა</h2>
-        <p>მომხმარებელს ნებისმიერ დროს შეუძლია წაშალოს საკუთარი ანგარიში და მასთან დაკავშირებული მონაცემები აპლიკაციის პარამეტრებიდან (Settings) ან მხარდაჭერის გუნდთან დაკავშირებით.</p>
-    </div>
-
-    <footer>
-        &copy; 2026 NiceWest. All rights reserved.
-    </footer>
-</div>
-
-</body>
+  </body>
 </html>
